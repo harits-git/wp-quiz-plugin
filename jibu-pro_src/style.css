@@ -1,0 +1,32 @@
+.JibuPro-question, #action-button {
+	display:none;
+}
+
+form.quiz-form {
+	text-align:left;
+}
+
+.single-page-quiz .JibuPro-question, .single-page-quiz #action-button {
+	display:block;
+}
+.single-page-quiz #next-question, .single-page-quiz #prev-question {
+	display:none;
+}
+.question-content {	font-weight:bold;
+	margin-top:20px;
+}
+
+.show-question {
+	border-bottom:1px solid #000;
+}.show-question-content{	font-weight:bold;}.unanswered{font-style:italic;}
+.answer span {
+	padding-right:20px;
+}
+.user-answer span {
+	font-weight:bold;
+	background:url(wrong.png) no-repeat right top;
+}
+.correct-answer span {
+	background:url(correct.png) no-repeat right top;
+}
+.wrap table{ width:100%; }

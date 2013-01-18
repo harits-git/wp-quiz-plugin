@@ -1,0 +1,82 @@
+Installation
+Jibu Pro is a WordPress plugin that you install in addition to DukaPress.
+
+Once installed and activated, the addon is ready for use!
+
+
+
+Creating a New Test
+The quickest way to learn how to use Jibu Pro is to create your first quiz/test. Click on “Create Quiz” in the Jibu Pro menu to get started. 
+
+You should now enter:
+* The quiz name
+* The quiz description
+* The passed mark – if you put, say 50%, it means that all test takers who get 50% of the questions right will eb rated as “Passed”
+* The final screen information – the information that test takers will see after finishing the quiz. An example is given by default on how to use this feature as well as usable variables.
+
+After you create your quiz, you will be given important information on how to make that quiz/test visible on your website. Please note this information for later use when you want to insert a test into a page.
+
+
+
+Adding Questions To A Quiz/Test
+After creating a new test, you will be redirected to a page in which you can create questions attached to that quiz.
+
+You can reach this page, alternatively, by clicking on “Manage Quiz” on the Jibu Pro menu and then selecting “Manage Questions” on the particular quiz/test of your interest.
+
+
+
+Creating questions is easy
+You need to input:
+* The question itself – this can be a simple sentence, a whole paragraph of text with pictures, a video or anything else.
+* Possible answers to the question – each question must have more than one possible answer for test-takers to sellect from. You also need to select which among the answers is the correct one.
+* Explanation – you can also include an explanation of why a particular answer is correct. This information will be presented to test-takers at the end of the test.
+
+You can add as many questions as you like to each quiz.
+
+
+
+Displaying A Quiz/Test on Your Website
+When you first created your quiz, you were presented with a shortcode which you can use to display your quiz anywhere on your website. This shortcode looks something like:
+
+[ Test 2 ]
+
+To display the test/quiz on your website, you need to place this shortcode into any WordPress post or page. Your quiz will then be visible for all to see.
+
+
+
+Quiz & Test Management
+If you click on “manage Quiz” on the Jibu Pro menu, you will be able to:
+
+* Manage, edit or delete quizes
+* Manage, edit or delete all questions
+* Quiz Results
+* The moment a test-taker finished taking a quiz, he/she will be able to view his results and see whether or not he passed. He will also be able to see all the questions (with answers) and explanations. For example:
+
+There is also a special shortcode [Test_result] which when placed in a WordPress page or post will display ALL the quiz results for a user who is logged in to your WordPress site. users can thus keep track of the tests they have taken and their results if they are registered users of your website. 
+
+
+
+Aministration
+The “Quiz results” link on the Jibu Pro menu leads one to a page where they can see all the results of all the quizzes/tests.
+
+You can view how many times a particular test has been:
+* attempted
+* passed
+* failed
+* abandoned
+* Additionally, you see can click on each of the above to see specifically which users attempted, passed, failed or abandoned your tests.
+
+
+
+User Management
+To keep things simple, Jibu Pro does not have a user management component. Therefore, to do things like:
+* Register users
+* Manage users
+* Edit Users
+* etc
+* You would need to work with WordPress directly. However, you can achieve the following:
+
+Show personal results to each test taker (see Quiz Results above)
+Display tests only to logged in users – you can achieve this by placing the test shortcode in a private/password protected area within your website
+
+Enjoy Jibu Pro!!
